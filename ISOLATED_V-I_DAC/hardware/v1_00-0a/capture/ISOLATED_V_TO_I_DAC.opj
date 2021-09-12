@@ -129,7 +129,7 @@
     (File "..\pcb\netlist.log"
       (Type "Log File")
       (LogFile
-         "C:\Users\jeanf\Desktop\git\ClickBoards\ISOLATED_V-I_DAC\hardware\v1_00-0a\pcb\netlist.log"))
+         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\pcb\netlist.log"))
     (File "..\pcb\netrev.lst"
       (Type "Log File")
       (LogFile
@@ -141,7 +141,7 @@
     (File "..\pcb\genfeed.log"
       (Type "Log File")
       (LogFile
-         "C:\Users\jeanf\Desktop\git\ClickBoards\ISOLATED_V-I_DAC\hardware\v1_00-0a\pcb\genfeed.log")))
+         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\pcb\genfeed.log")))
   (PartMRUSelector
     (test_pad
       (FullPartName "test_pad.Normal")
@@ -252,16 +252,13 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\jeanf\desktop\git\clickboards\isolated_v-i_dac\hardware\v1_00-0a\capture\isolated_v_to_i_dac.dsn")
-      (Path "Design Resources"
-         "c:\users\jeanf\desktop\git\clickboards\isolated_v-i_dac\hardware\v1_00-0a\capture\isolated_v_to_i_dac.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\isolated_v_to_i_dac.dsn")
+      (Path "Design Resources" ".\isolated_v_to_i_dac.dsn" "SCHEMATIC1")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources"
-         "c:\users\jeanf\desktop\git\clickboards\isolated_v-i_dac\hardware\v1_00-0a\capture\isolated_v_to_i_dac.dsn"))
+      (Select "Design Resources" ".\isolated_v_to_i_dac.dsn" "SCHEMATIC1"
+         "DAC V/I OUTPUT"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -271,23 +268,12 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1597 24 773")
-        (Scroll "-225 -4")
-        (Zoom "73")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARDS\ISOLATED_V-I_DAC\HARDWARE\V1_00-0A\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "DAC V/I OUTPUT"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1597 24 773")
-        (Scroll "371 220")
-        (Zoom "200")
+        (Scroll "-20 0")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARDS\ISOLATED_V-I_DAC\HARDWARE\V1_00-0A\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
+         "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0A\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MikroBus interface")))
+      (Page "DAC V/I OUTPUT")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
