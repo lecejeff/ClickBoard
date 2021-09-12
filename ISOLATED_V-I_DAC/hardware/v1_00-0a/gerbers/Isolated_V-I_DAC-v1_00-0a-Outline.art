@@ -1,0 +1,33 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  isolated_v-i_dac.brd*
+G04 Film Name:    Isolated_V-I_DAC-v1_00-0a-Outline*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.4-S018*
+G04 Origin Date:  Sun Sep 12 10:26:27 2021*
+G04 *
+G04 Layer:  BOARD GEOMETRY/DESIGN_OUTLINE*
+G04 *
+G04 Offset:    (0.00 0.00)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     6.00*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.006*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X0Y215000D02*
+Y10000D01*
+G03X10000Y0I10000J0D01*
+G01X90000D01*
+X100000Y10000D01*
+Y215000D01*
+G03X90000Y225000I-10000J0D01*
+G01X10000D01*
+G03X0Y215000I0J-10000D01*
+M02*
