@@ -133,16 +133,20 @@
     (File "..\pcb\netrev.lst"
       (Type "Log File")
       (LogFile
-         "c:\users\jeanf\desktop\git\clickboards\isolated_v-i_dac\hardware\v1_00-0a\pcb\netrev.lst"))
+         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\pcb\netrev.lst"))
     (File "..\pcb\eco.txt"
       (Type "Log File")
       (LogFile
-         "c:\users\jeanf\desktop\git\clickboards\isolated_v-i_dac\hardware\v1_00-0a\pcb\eco.txt"))
+         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\pcb\eco.txt"))
     (File "..\pcb\genfeed.log"
       (Type "Log File")
       (LogFile
          "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\pcb\genfeed.log")))
   (PartMRUSelector
+    (Fiducial
+      (FullPartName "Fiducial.Normal")
+      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
+      (DeviceIndex "0"))
     (test_pad
       (FullPartName "test_pad.Normal")
       (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
@@ -243,22 +247,16 @@
     (CAP-NP
       (FullPartName "CAP-NP.Normal")
       (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
-      (DeviceIndex "0"))
-    (ClickBoard-add-on
-      (FullPartName "ClickBoard-add-on.Normal")
-      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "jeanf")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\isolated_v_to_i_dac.dsn")
-      (Path "Design Resources" ".\isolated_v_to_i_dac.dsn" "SCHEMATIC1")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\isolated_v_to_i_dac.dsn" "SCHEMATIC1"
-         "DAC V/I OUTPUT"))
+      (Select "Design Resources"
+         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0a\capture\isolated_v_to_i_dac.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -268,12 +266,23 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1597 24 773")
-        (Scroll "-20 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1316 24 773")
+        (Scroll "0 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0A\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "DAC V/I OUTPUT")))
+      (Page "DAC V/I OUTPUT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1316 24 773")
+        (Scroll "290 602")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0A\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MikroBus interface")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library"))
