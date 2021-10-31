@@ -1,6 +1,6 @@
 (ExpressProject "Isolated_v_to_i_DAC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S021 (3976684)  [9/12/2021]-[10/23/21]")
+  (SoftwareVersion "17.4-2019 S021 (3976684)  [9/12/2021]-[10/31/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -147,6 +147,22 @@
       (LogFile
          "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0b\pcb\swp.log")))
   (PartMRUSelector
+    (REF3140AQDBZR
+      (FullPartName "REF3140AQDBZR.Normal")
+      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
+      (DeviceIndex "0"))
+    (TLV9351IDBVR
+      (FullPartName "TLV9351IDBVRB.Normal")
+      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
+      (DeviceIndex "1"))
+    (TLV9352IDR
+      (FullPartName "TLV9352IDRC.Normal")
+      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
+      (DeviceIndex "2"))
+    (AD5641
+      (FullPartName "AD5641.Normal")
+      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
+      (DeviceIndex "0"))
     (IC_EEPROM_512Kx8_I2C_TSSOP8
       (FullPartName "IC_EEPROM_512Kx8_I2C_TSSOP8.Normal")
       (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
@@ -242,18 +258,6 @@
     (Inductor
       (FullPartName "Inductor.Normal")
       (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LMR64010
-      (FullPartName "LMR64010.Normal")
-      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
-      (DeviceIndex "0"))
-    (REF3040
-      (FullPartName "REF3040.Normal")
-      (LibraryName "C:\USERS\JEANF\DESKTOP\GIT\ORCAD-LIBRARY\PIECE\PART.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "jeanf")
   (GlobalState
@@ -261,22 +265,21 @@
       (Path "Design Resources")
       (Path "Design Resources"
          "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0b\capture\isolated_v_to_i_dac.dsn")
+      (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources"
-         "c:\users\jeanf\desktop\git\clickboard\isolated_v-i_dac\hardware\v1_00-0b\capture\isolated_v_to_i_dac.dsn"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 756"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "-264 -4")
+        (Placement "44 0 1 -1 -1 5 24 5 1354 24 774")
+        (Scroll "-104 -5")
         (Zoom "73")
         (Occurrence "/"))
       (Path
@@ -286,9 +289,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1674 24 773")
-        (Scroll "255 223")
-        (Zoom "196")
+        (Placement "44 0 1 -1 -1 5 24 5 1354 24 774")
+        (Scroll "-183 -6")
+        (Zoom "98")
         (Occurrence "/"))
       (Path
          "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0B\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")

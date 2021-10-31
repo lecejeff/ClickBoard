@@ -516,7 +516,7 @@
     <Enterprise id="UNKNOWN" code="UNKNOWN"/>
     <Person name="jeanf" enterpriseRef="UNKNOWN" roleRef="Owner"/>
     </LogisticHeader>
-  <HistoryRecord number="1" origination="2021-10-23T10:10:52" software="allegro_17.4S021(9/12/2021)" lastChange="2021-10-23T10:10:51">
+  <HistoryRecord number="1" origination="2021-10-23T12:13:36" software="allegro_17.4S021(9/12/2021)" lastChange="2021-10-23T10:59:47">
     <FileRevision fileRevisionId="1" comment="">
       <SoftwarePackage name="Allegro" revision="allegro_17.4S021(9/12/2021)" vendor="Cadence">
         <Certification certificationStatus="CERTIFIED"/>
@@ -590,7 +590,7 @@
       </BomItem>
     <BomItem OEMDesignNumberRef="CAP-NP_0402_CAP_IPC_22PF" quantity="2" pinCount="2" category="ELECTRICAL">
       <RefDes name="C32" packageRef="0402_CAP_IPC" populate="true" layerRef="TOP"/>
-      <RefDes name="C?" packageRef="0402_CAP_IPC" populate="true" layerRef="TOP"/>
+      <RefDes name="C55" packageRef="0402_CAP_IPC" populate="true" layerRef="TOP"/>
       <Characteristics category="ELECTRICAL">
         <Textual definitionSource="ALLEGRO" textualCharacteristicName="DEVICE_TYPE" textualCharacteristicValue="CAP-NP_0402_CAP_IPC_22PF"/>
         <Textual definitionSource="ALLEGRO" textualCharacteristicName="COMP_CLASS" textualCharacteristicValue="IC"/>
@@ -4000,7 +4000,7 @@
           <NonstandardAttribute name="VALUE" value="1nF" type="STRING"/>
           <Location x="0.37000" y="0.86000"/>
           </Component>
-        <Component refDes="C?" packageRef="0402_CAP_IPC" layerRef="TOP" part="CAP-NP_0402_CAP_IPC_22PF" mountType="SMT" standoff="0.0" height="0.15000">
+        <Component refDes="C55" packageRef="0402_CAP_IPC" layerRef="TOP" part="CAP-NP_0402_CAP_IPC_22PF" mountType="SMT" standoff="0.0" height="0.15000">
           <NonstandardAttribute name="VALUE" value="22pF" type="STRING"/>
           <Xform rotation="90.000"/>
           <Location x="0.40000" y="1.64000"/>
@@ -4471,7 +4471,7 @@
           <PinRef pin="1" componentRef="J3"/>
           </LogicalNet>
         <LogicalNet name="N253978">
-          <PinRef pin="2" componentRef="C?"/>
+          <PinRef pin="2" componentRef="C55"/>
           <PinRef pin="6" componentRef="J3"/>
           <PinRef pin="7" componentRef="U8"/>
           <PinRef pin="2" componentRef="R10"/>
@@ -4542,6 +4542,9 @@
           <PinRef pin="3" componentRef="U9"/>
           </LogicalNet>
         <LogicalNet name="GND_ISO">
+          <PinRef pin="1" componentRef="C48"/>
+          <PinRef pin="1" componentRef="TP30"/>
+          <PinRef pin="1" componentRef="R7"/>
           <PinRef pin="1" componentRef="C21"/>
           <PinRef pin="2" componentRef="D2"/>
           <PinRef pin="1" componentRef="C42"/>
@@ -4566,7 +4569,6 @@
           <PinRef pin="1" componentRef="C44"/>
           <PinRef pin="1" componentRef="C46"/>
           <PinRef pin="2" componentRef="C47"/>
-          <PinRef pin="1" componentRef="C48"/>
           <PinRef pin="1" componentRef="C50"/>
           <PinRef pin="1" componentRef="C52"/>
           <PinRef pin="2" componentRef="U4"/>
@@ -4576,7 +4578,6 @@
           <PinRef pin="1" componentRef="C20"/>
           <PinRef pin="3" componentRef="U2"/>
           <PinRef pin="3" componentRef="J3"/>
-          <PinRef pin="1" componentRef="TP30"/>
           <PinRef pin="2" componentRef="R9"/>
           <PinRef pin="1" componentRef="TP33"/>
           <PinRef pin="1" componentRef="TP32"/>
@@ -4585,7 +4586,6 @@
           <PinRef pin="1" componentRef="TP38"/>
           <PinRef pin="3" componentRef="U6"/>
           <PinRef pin="1" componentRef="C25"/>
-          <PinRef pin="1" componentRef="R7"/>
           <PinRef pin="1" componentRef="TP31"/>
           <PinRef pin="5" componentRef="U5"/>
           <PinRef pin="1" componentRef="R12"/>
@@ -4611,7 +4611,7 @@
           <PinRef pin="2" componentRef="R24"/>
           </LogicalNet>
         <LogicalNet name="N03627">
-          <PinRef pin="1" componentRef="C?"/>
+          <PinRef pin="1" componentRef="C55"/>
           <PinRef pin="1" componentRef="R9"/>
           <PinRef pin="1" componentRef="R10"/>
           <PinRef pin="6" componentRef="U8"/>
@@ -4830,46 +4830,46 @@
           <PinRef pin="2" componentRef="C2"/>
           <PinRef pin="5" componentRef="U4"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E8290" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E290" netClass="UNUSED">
           <PinRef pin="16" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E8568" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E568" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID1"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E85D0" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E5D0" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E8638" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E638" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID3"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E86A0" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E6A0" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID4"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E8708" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E708" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID5"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E8770" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478E770" netClass="UNUSED">
           <PinRef pin="5" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E9748" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F748" netClass="UNUSED">
           <PinRef pin="6" componentRef="U2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E97B0" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F7B0" netClass="UNUSED">
           <PinRef pin="5" componentRef="U2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E9818" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F818" netClass="UNUSED">
           <PinRef pin="14" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E9880" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F880" netClass="UNUSED">
           <PinRef pin="13" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E98E8" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F8E8" netClass="UNUSED">
           <PinRef pin="15" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E9950" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F950" netClass="UNUSED">
           <PinRef pin="1" componentRef="J2"/>
           </LogicalNet>
-        <LogicalNet name="Unused_00000222327E99B8" netClass="UNUSED">
+        <LogicalNet name="Unused_000002331478F9B8" netClass="UNUSED">
           <PinRef pin="1" componentRef="FID6"/>
           </LogicalNet>
         <PhyNetGroup name="AllPhyNets">
@@ -5111,6 +5111,21 @@
               </PhyNetPoint>
             </PhyNet>
           <PhyNet name="GND_ISO">
+            <PhyNetPoint x="0.18500" y="1.06000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
+              <StandardPrimitiveRef id="RECTROUND_1"/>
+              </PhyNetPoint>
+            <PhyNetPoint x="0.12500" y="1.08500" layerRef="TOP" netNode="MIDDLE" exposure="COVERED_SECONDARY" via="false">
+              <StandardPrimitiveRef id="CIRCLE_5"/>
+              </PhyNetPoint>
+            <PhyNetPoint x="0.12500" y="1.13000" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </PhyNetPoint>
+            <PhyNetPoint x="0.12500" y="1.13000" layerRef="BOTTOM" netNode="MIDDLE" exposure="COVERED" via="true">
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </PhyNetPoint>
+            <PhyNetPoint x="0.18000" y="1.13000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
+              <StandardPrimitiveRef id="RECTROUND_25"/>
+              </PhyNetPoint>
             <PhyNetPoint x="0.77500" y="1.54000" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </PhyNetPoint>
@@ -5189,9 +5204,6 @@
             <PhyNetPoint x="0.40937" y="0.86000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="RECTROUND_1"/>
               </PhyNetPoint>
-            <PhyNetPoint x="0.18500" y="1.06000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
-              <StandardPrimitiveRef id="RECTROUND_1"/>
-              </PhyNetPoint>
             <PhyNetPoint x="0.19000" y="1.55500" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               </PhyNetPoint>
             <PhyNetPoint x="0.78000" y="1.60500" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
@@ -5257,9 +5269,6 @@
             <PhyNetPoint x="0.56000" y="1.24000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="RECTROUND_5"/>
               </PhyNetPoint>
-            <PhyNetPoint x="0.12500" y="1.08500" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
-              <StandardPrimitiveRef id="CIRCLE_5"/>
-              </PhyNetPoint>
             <PhyNetPoint x="0.34000" y="1.53000" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </PhyNetPoint>
@@ -5268,12 +5277,6 @@
               </PhyNetPoint>
             <PhyNetPoint x="0.34000" y="1.57000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="RECTROUND_28"/>
-              </PhyNetPoint>
-            <PhyNetPoint x="0.16500" y="1.06000" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </PhyNetPoint>
-            <PhyNetPoint x="0.16500" y="1.06000" layerRef="BOTTOM" netNode="MIDDLE" exposure="COVERED" via="true">
-              <StandardPrimitiveRef id="CIRCLE_1"/>
               </PhyNetPoint>
             <PhyNetPoint x="0.53500" y="1.70500" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
               <StandardPrimitiveRef id="CIRCLE_1"/>
@@ -5331,9 +5334,6 @@
               </PhyNetPoint>
             <PhyNetPoint x="0.69500" y="0.67500" layerRef="TOP" netNode="MIDDLE" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="RECTROUND_15"/>
-              </PhyNetPoint>
-            <PhyNetPoint x="0.18000" y="1.13000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
-              <StandardPrimitiveRef id="RECTROUND_25"/>
               </PhyNetPoint>
             <PhyNetPoint x="0.87500" y="1.09500" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
               <StandardPrimitiveRef id="CIRCLE_1"/>
@@ -5459,12 +5459,6 @@
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </PhyNetPoint>
             <PhyNetPoint x="0.33500" y="0.94500" layerRef="BOTTOM" netNode="MIDDLE" exposure="COVERED" via="true">
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </PhyNetPoint>
-            <PhyNetPoint x="0.14500" y="1.13000" layerRef="TOP" netNode="MIDDLE" exposure="COVERED" via="true">
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </PhyNetPoint>
-            <PhyNetPoint x="0.14500" y="1.13000" layerRef="BOTTOM" netNode="MIDDLE" exposure="COVERED" via="true">
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </PhyNetPoint>
             <PhyNetPoint x="0.48685" y="2.04000" layerRef="TOP" netNode="MIDDLE" exposure="EXPOSED" via="false">
@@ -6289,7 +6283,7 @@
             <PhyNetPoint x="0.26000" y="1.22780" layerRef="BOTTOM" netNode="MIDDLE" exposure="COVERED_PRIMARY" via="false">
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E8290">
+          <PhyNet name="Unused_000002331478E290">
             <PhyNetPoint x="0.95000" y="0.85000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="RECTCENTER_25"/>
               </PhyNetPoint>
@@ -6297,32 +6291,32 @@
               <StandardPrimitiveRef id="RECTCENTER_25"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E8568">
+          <PhyNet name="Unused_000002331478E568">
             <PhyNetPoint x="0.10000" y="2.17000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E85D0">
+          <PhyNet name="Unused_000002331478E5D0">
             <PhyNetPoint x="0.90500" y="2.17000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E8638">
+          <PhyNet name="Unused_000002331478E638">
             <PhyNetPoint x="0.24000" y="0.06000" layerRef="TOP" netNode="END" exposure="COVERED_SECONDARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E86A0">
+          <PhyNet name="Unused_000002331478E6A0">
             <PhyNetPoint x="0.10000" y="2.17000" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_9"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E8708">
+          <PhyNet name="Unused_000002331478E708">
             <PhyNetPoint x="0.90500" y="2.17000" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_9"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E8770">
+          <PhyNet name="Unused_000002331478E770">
             <PhyNetPoint x="0.05000" y="0.45000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
@@ -6330,15 +6324,15 @@
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E9748">
+          <PhyNet name="Unused_000002331478F748">
             <PhyNetPoint x="0.77300" y="0.80000" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E97B0">
+          <PhyNet name="Unused_000002331478F7B0">
             <PhyNetPoint x="0.41000" y="0.80000" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E9818">
+          <PhyNet name="Unused_000002331478F818">
             <PhyNetPoint x="0.95000" y="0.65000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
@@ -6346,7 +6340,7 @@
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E9880">
+          <PhyNet name="Unused_000002331478F880">
             <PhyNetPoint x="0.95000" y="0.55000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
@@ -6354,7 +6348,7 @@
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E98E8">
+          <PhyNet name="Unused_000002331478F8E8">
             <PhyNetPoint x="0.95000" y="0.75000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
@@ -6362,7 +6356,7 @@
               <StandardPrimitiveRef id="OVAL_3"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E9950">
+          <PhyNet name="Unused_000002331478F950">
             <PhyNetPoint x="0.05000" y="0.85000" layerRef="TOP" netNode="END" exposure="EXPOSED" via="false">
               <StandardPrimitiveRef id="RECTCENTER_25"/>
               </PhyNetPoint>
@@ -6370,7 +6364,7 @@
               <StandardPrimitiveRef id="RECTCENTER_25"/>
               </PhyNetPoint>
             </PhyNet>
-          <PhyNet name="Unused_00000222327E99B8">
+          <PhyNet name="Unused_000002331478F9B8">
             <PhyNetPoint x="0.85000" y="0.07500" layerRef="BOTTOM" netNode="END" exposure="COVERED_PRIMARY" via="false">
               <StandardPrimitiveRef id="CIRCLE_9"/>
               </PhyNetPoint>
@@ -6838,9 +6832,18 @@
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
-                <PolyBegin x="0.54250" y="1.15750"/>
-                <PolyStepSegment x="0.56000" y="1.17500"/>
-                <PolyStepSegment x="0.56000" y="1.24000"/>
+                <PolyBegin x="0.12500" y="1.13000"/>
+                <PolyStepSegment x="0.12500" y="1.08500"/>
+                <LineDescRef id="ROUND_2000"/>
+                </Polyline>
+              </Features>
+            </Set>
+          <Set net="GND_ISO">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Polyline>
+                <PolyBegin x="0.18000" y="1.13000"/>
+                <PolyStepSegment x="0.12500" y="1.13000"/>
                 <LineDescRef id="ROUND_2000"/>
                 </Polyline>
               </Features>
@@ -6850,7 +6853,19 @@
               <Location x="0.0" y="0.0"/>
               <Polyline>
                 <PolyBegin x="0.18500" y="1.06000"/>
-                <PolyStepSegment x="0.16500" y="1.06000"/>
+                <PolyStepSegment x="0.15000" y="1.06000"/>
+                <PolyStepSegment x="0.12500" y="1.08500"/>
+                <LineDescRef id="ROUND_2000"/>
+                </Polyline>
+              </Features>
+            </Set>
+          <Set net="GND_ISO">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Polyline>
+                <PolyBegin x="0.54250" y="1.15750"/>
+                <PolyStepSegment x="0.56000" y="1.17500"/>
+                <PolyStepSegment x="0.56000" y="1.24000"/>
                 <LineDescRef id="ROUND_2000"/>
                 </Polyline>
               </Features>
@@ -7106,17 +7121,6 @@
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
-                <PolyBegin x="0.12500" y="1.08500"/>
-                <PolyStepSegment x="0.14000" y="1.08500"/>
-                <PolyStepSegment x="0.16500" y="1.06000"/>
-                <LineDescRef id="ROUND_2000"/>
-                </Polyline>
-              </Features>
-            </Set>
-          <Set net="GND_ISO">
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
                 <PolyBegin x="0.57500" y="1.70500"/>
                 <PolyStepSegment x="0.53500" y="1.70500"/>
                 <LineDescRef id="ROUND_2000"/>
@@ -7150,16 +7154,6 @@
                 <PolyBegin x="0.68606" y="0.59500"/>
                 <PolyStepSegment x="0.68606" y="0.66606"/>
                 <PolyStepSegment x="0.69500" y="0.67500"/>
-                <LineDescRef id="ROUND_2000"/>
-                </Polyline>
-              </Features>
-            </Set>
-          <Set net="GND_ISO">
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.14500" y="1.13000"/>
-                <PolyStepSegment x="0.18000" y="1.13000"/>
                 <LineDescRef id="ROUND_2000"/>
                 </Polyline>
               </Features>
@@ -9051,6 +9045,13 @@
           <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
+              <Location x="0.12500" y="1.13000"/>
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </Pad>
+            </Set>
+          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
+            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
+            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.77500" y="1.54000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
@@ -9115,13 +9116,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.34000" y="1.53000"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.16500" y="1.06000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -9290,13 +9284,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.33500" y="0.94500"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.14500" y="1.13000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -10012,7 +9999,7 @@
               <Xform rotation="90.000"/>
               <Location x="0.40000" y="1.64000"/>
               <StandardPrimitiveRef id="RECTROUND_1"/>
-              <PinRef pin="1" componentRef="C?"/>
+              <PinRef pin="1" componentRef="C55"/>
               </Pad>
             </Set>
           <Set net="N253978" testPoint="false" padUsage="TERMINATION">
@@ -10021,7 +10008,7 @@
               <Xform rotation="90.000"/>
               <Location x="0.40000" y="1.67937"/>
               <StandardPrimitiveRef id="RECTROUND_1"/>
-              <PinRef pin="2" componentRef="C?"/>
+              <PinRef pin="2" componentRef="C55"/>
               </Pad>
             </Set>
           <Set net="GND_ISO" testPoint="false" padUsage="TERMINATION">
@@ -10184,21 +10171,21 @@
               <StandardPrimitiveRef id="CIRCLE_2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8568">
+          <Set net="Unused_000002331478E568">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.10000" y="2.17000"/>
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E85D0">
+          <Set net="Unused_000002331478E5D0">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.90500" y="2.17000"/>
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E8638">
+          <Set net="Unused_000002331478E638">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.24000" y="0.06000"/>
@@ -11201,7 +11188,7 @@
               <PinRef pin="8" componentRef="U8"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -11237,7 +11224,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -11309,7 +11296,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -11318,7 +11305,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -11327,7 +11314,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -11336,7 +11323,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -11895,6 +11882,13 @@
           <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
+              <Location x="0.12500" y="1.13000"/>
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </Pad>
+            </Set>
+          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
+            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
+            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.77500" y="1.54000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
@@ -11959,13 +11953,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.34000" y="1.53000"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.16500" y="1.06000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -12134,13 +12121,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.33500" y="0.94500"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.14500" y="1.13000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -12448,7 +12428,7 @@
               <PinRef pin="3" componentRef="J1"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -12484,7 +12464,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -12556,7 +12536,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -12565,7 +12545,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -12574,7 +12554,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -12583,7 +12563,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -12763,8 +12743,7 @@
               <Location x="0.0" y="0.0"/>
               <Contour>
                 <Polygon>
-                  <PolyBegin x="0.90495" y="2.22018"/>
-                  <PolyStepSegment x="0.90500" y="2.22018"/>
+                  <PolyBegin x="0.90500" y="2.22018"/>
                   <PolyStepCurve x="0.97000" y="2.15987" centerX="0.9050000" centerY="2.1549976" clockwise="true"/>
                   <PolyStepSegment x="0.97000" y="2.15013"/>
                   <PolyStepSegment x="0.96999" y="2.15000"/>
@@ -12787,85 +12766,74 @@
                   <PolyStepCurve x="0.09940" y="2.21999" centerX="0.1015247" centerY="2.1473950" clockwise="true"/>
                   <PolyStepSegment x="0.90000" y="2.21999"/>
                   <PolyStepCurve x="0.90495" y="2.22018" centerX="0.9049733" centerY="2.1549990" clockwise="true"/>
+                  <PolyStepSegment x="0.90500" y="2.22018"/>
                   <FillDescRef id="SOLID_FILL"/>
                   </Polygon>
                 <Cutout>
-                  <PolyBegin x="0.85671" y="1.80498"/>
-                  <PolyStepSegment x="0.56000" y="1.80498"/>
-                  <PolyStepCurve x="0.56000" y="1.84502" centerX="0.5600000" centerY="1.8250000" clockwise="true"/>
-                  <PolyStepSegment x="0.86500" y="1.84502"/>
-                  <PolyStepCurve x="0.87915" y="1.83915" centerX="0.8649893" centerY="1.8250044" clockwise="true"/>
-                  <PolyStepSegment x="0.94415" y="1.77415"/>
-                  <PolyStepCurve x="0.95002" y="1.76000" centerX="0.9300044" centerY="1.7599893" clockwise="true"/>
-                  <PolyStepSegment x="0.95002" y="1.57000"/>
-                  <PolyStepCurve x="0.94415" y="1.55585" centerX="0.9300044" centerY="1.5700107" clockwise="true"/>
-                  <PolyStepSegment x="0.91415" y="1.52585"/>
-                  <PolyStepCurve x="0.90000" y="1.51998" centerX="0.8999893" centerY="1.5399956" clockwise="true"/>
-                  <PolyStepCurve x="0.87998" y="1.54000" centerX="0.9000000" centerY="1.5400000" clockwise="true"/>
-                  <PolyStepCurve x="0.88585" y="1.55415" centerX="0.8999956" centerY="1.5399893" clockwise="true"/>
-                  <PolyStepSegment x="0.90998" y="1.57829"/>
-                  <PolyStepSegment x="0.90998" y="1.75171"/>
-                  <PolyStepSegment x="0.85671" y="1.80498"/>
+                  <PolyBegin x="0.21000" y="1.75248"/>
+                  <PolyStepCurve x="0.21000" y="1.79752" centerX="0.2100000" centerY="1.7750000" clockwise="true"/>
+                  <PolyStepSegment x="0.32500" y="1.79752"/>
+                  <PolyStepCurve x="0.34092" y="1.79092" centerX="0.3249931" centerY="1.7750029" clockwise="true"/>
+                  <PolyStepSegment x="0.37870" y="1.75314"/>
+                  <PolyStepSegment x="0.41437" y="1.75314"/>
+                  <PolyStepCurve x="0.43029" y="1.74655" centerX="0.4143752" centerY="1.7306279" clockwise="true"/>
+                  <PolyStepSegment x="0.46592" y="1.71092"/>
+                  <PolyStepCurve x="0.47252" y="1.69500" centerX="0.4500029" centerY="1.6949931" clockwise="true"/>
+                  <PolyStepSegment x="0.47252" y="1.61534"/>
+                  <PolyStepCurve x="0.47959" y="1.61278" centerX="0.4765181" centerY="1.6153388" clockwise="false"/>
+                  <PolyStepCurve x="0.49500" y="1.62002" centerX="0.4950000" centerY="1.6000003" clockwise="true"/>
+                  <PolyStepCurve x="0.49500" y="1.57998" centerX="0.4950000" centerY="1.6000000" clockwise="true"/>
+                  <PolyStepCurve x="0.47959" y="1.58722" centerX="0.4950000" centerY="1.5999997" clockwise="true"/>
+                  <PolyStepCurve x="0.47252" y="1.58466" centerX="0.4765181" centerY="1.5846612" clockwise="false"/>
+                  <PolyStepSegment x="0.47252" y="1.52746"/>
+                  <PolyStepSegment x="0.48183" y="1.51814"/>
+                  <PolyStepSegment x="0.50000" y="1.51814"/>
+                  <PolyStepCurve x="0.50000" y="1.47312" centerX="0.5000000" centerY="1.4956300" clockwise="true"/>
+                  <PolyStepSegment x="0.47250" y="1.47312"/>
+                  <PolyStepCurve x="0.45658" y="1.47971" centerX="0.4724948" centerY="1.4956321" clockwise="true"/>
+                  <PolyStepSegment x="0.43408" y="1.50221"/>
+                  <PolyStepCurve x="0.42748" y="1.51813" centerX="0.4499971" centerY="1.5181369" clockwise="true"/>
+                  <PolyStepSegment x="0.42748" y="1.68567"/>
+                  <PolyStepSegment x="0.40504" y="1.70812"/>
+                  <PolyStepSegment x="0.36937" y="1.70812"/>
+                  <PolyStepCurve x="0.35345" y="1.71471" centerX="0.3693648" centerY="1.7306321" clockwise="true"/>
+                  <PolyStepSegment x="0.31567" y="1.75248"/>
+                  <PolyStepSegment x="0.21000" y="1.75248"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.81748" y="1.67000"/>
-                  <PolyStepCurve x="0.82408" y="1.68592" centerX="0.8399971" centerY="1.6699931" clockwise="true"/>
-                  <PolyStepSegment x="0.85408" y="1.71592"/>
-                  <PolyStepCurve x="0.87000" y="1.72252" centerX="0.8700069" centerY="1.7000029" clockwise="true"/>
-                  <PolyStepCurve x="0.89252" y="1.70000" centerX="0.8700000" centerY="1.7000000" clockwise="true"/>
-                  <PolyStepCurve x="0.88592" y="1.68408" centerX="0.8700029" centerY="1.7000069" clockwise="true"/>
-                  <PolyStepSegment x="0.86252" y="1.66067"/>
-                  <PolyStepSegment x="0.86252" y="1.29433"/>
-                  <PolyStepSegment x="0.89592" y="1.26092"/>
-                  <PolyStepCurve x="0.90252" y="1.24500" centerX="0.8800029" centerY="1.2449931" clockwise="true"/>
-                  <PolyStepCurve x="0.88000" y="1.22248" centerX="0.8800000" centerY="1.2450000" clockwise="true"/>
-                  <PolyStepCurve x="0.86408" y="1.22908" centerX="0.8800069" centerY="1.2449971" clockwise="true"/>
-                  <PolyStepSegment x="0.82408" y="1.26908"/>
-                  <PolyStepCurve x="0.81748" y="1.28500" centerX="0.8399971" centerY="1.2850069" clockwise="true"/>
-                  <PolyStepSegment x="0.81748" y="1.67000"/>
+                  <PolyBegin x="0.74022" y="2.04000"/>
+                  <PolyStepCurve x="0.62718" y="2.04000" centerX="0.6837000" centerY="2.0400000" clockwise="true"/>
+                  <PolyStepCurve x="0.74022" y="2.04000" centerX="0.6837000" centerY="2.0400000" clockwise="true"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.39915" y="1.03502"/>
-                  <PolyStepSegment x="0.69002" y="1.03502"/>
-                  <PolyStepSegment x="0.69002" y="0.59998"/>
-                  <PolyStepSegment x="0.37498" y="0.59998"/>
-                  <PolyStepSegment x="0.37498" y="0.74498"/>
-                  <PolyStepSegment x="0.22998" y="0.74498"/>
-                  <PolyStepSegment x="0.22998" y="0.97085"/>
-                  <PolyStepSegment x="0.15498" y="1.04585"/>
-                  <PolyStepSegment x="0.15498" y="1.14002"/>
-                  <PolyStepSegment x="0.29415" y="1.14002"/>
-                  <PolyStepSegment x="0.39915" y="1.03502"/>
+                  <PolyBegin x="0.53837" y="2.04000"/>
+                  <PolyStepCurve x="0.43533" y="2.04000" centerX="0.4868500" centerY="2.0400000" clockwise="true"/>
+                  <PolyStepCurve x="0.53837" y="2.04000" centerX="0.4868500" centerY="2.0400000" clockwise="true"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.51315" y="1.29797"/>
-                  <PolyStepCurve x="0.50685" y="1.29797" centerX="0.5100000" centerY="1.2955097" clockwise="false"/>
-                  <PolyStepCurve x="0.48500" y="1.28730" centerX="0.4850000" centerY="1.3150072" clockwise="true"/>
-                  <PolyStepCurve x="0.48500" y="1.34270" centerX="0.4850000" centerY="1.3150000" clockwise="true"/>
-                  <PolyStepCurve x="0.50685" y="1.33203" centerX="0.4850000" centerY="1.3149928" clockwise="true"/>
-                  <PolyStepCurve x="0.51315" y="1.33203" centerX="0.5100000" centerY="1.3344903" clockwise="false"/>
-                  <PolyStepCurve x="0.53500" y="1.34270" centerX="0.5350000" centerY="1.3149928" clockwise="true"/>
-                  <PolyStepCurve x="0.53500" y="1.28730" centerX="0.5350000" centerY="1.3150000" clockwise="true"/>
-                  <PolyStepCurve x="0.51315" y="1.29797" centerX="0.5350000" centerY="1.3150072" clockwise="true"/>
+                  <PolyBegin x="0.34652" y="2.04000"/>
+                  <PolyStepCurve x="0.23348" y="2.04000" centerX="0.2900000" centerY="2.0400000" clockwise="true"/>
+                  <PolyStepCurve x="0.34652" y="2.04000" centerX="0.2900000" centerY="2.0400000" clockwise="true"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.27567" y="1.66248"/>
-                  <PolyStepSegment x="0.21000" y="1.66248"/>
-                  <PolyStepCurve x="0.21000" y="1.70752" centerX="0.2100000" centerY="1.6850000" clockwise="true"/>
-                  <PolyStepSegment x="0.28500" y="1.70752"/>
-                  <PolyStepCurve x="0.30092" y="1.70092" centerX="0.2849931" centerY="1.6850029" clockwise="true"/>
-                  <PolyStepSegment x="0.39874" y="1.60310"/>
-                  <PolyStepCurve x="0.40534" y="1.58718" centerX="0.3828229" centerY="1.5871731" clockwise="true"/>
-                  <PolyStepSegment x="0.40534" y="1.49969"/>
-                  <PolyStepCurve x="0.39874" y="1.48377" centerX="0.3828229" centerY="1.4996969" clockwise="true"/>
-                  <PolyStepSegment x="0.39252" y="1.47754"/>
-                  <PolyStepSegment x="0.39252" y="1.30000"/>
-                  <PolyStepCurve x="0.34748" y="1.30000" centerX="0.3700000" centerY="1.3000000" clockwise="true"/>
-                  <PolyStepSegment x="0.34748" y="1.48687"/>
-                  <PolyStepCurve x="0.35408" y="1.50279" centerX="0.3699971" centerY="1.4868631" clockwise="true"/>
-                  <PolyStepSegment x="0.36030" y="1.50902"/>
-                  <PolyStepSegment x="0.36030" y="1.57785"/>
-                  <PolyStepSegment x="0.27567" y="1.66248"/>
+                  <PolyBegin x="0.27002" y="1.54500"/>
+                  <PolyStepCurve x="0.22998" y="1.54500" centerX="0.2500000" centerY="1.5450000" clockwise="true"/>
+                  <PolyStepCurve x="0.27002" y="1.54500" centerX="0.2500000" centerY="1.5450000" clockwise="true"/>
+                  </Cutout>
+                <Cutout>
+                  <PolyBegin x="0.53002" y="1.16500"/>
+                  <PolyStepCurve x="0.48998" y="1.16500" centerX="0.5100000" centerY="1.1650000" clockwise="true"/>
+                  <PolyStepCurve x="0.53002" y="1.16500" centerX="0.5100000" centerY="1.1650000" clockwise="true"/>
+                  </Cutout>
+                <Cutout>
+                  <PolyBegin x="0.46002" y="1.17000"/>
+                  <PolyStepCurve x="0.41998" y="1.17000" centerX="0.4400000" centerY="1.1700000" clockwise="true"/>
+                  <PolyStepCurve x="0.46002" y="1.17000" centerX="0.4400000" centerY="1.1700000" clockwise="true"/>
+                  </Cutout>
+                <Cutout>
+                  <PolyBegin x="0.71002" y="0.51500"/>
+                  <PolyStepCurve x="0.66998" y="0.51500" centerX="0.6900000" centerY="0.5150000" clockwise="true"/>
+                  <PolyStepCurve x="0.71002" y="0.51500" centerX="0.6900000" centerY="0.5150000" clockwise="true"/>
                   </Cutout>
                 <Cutout>
                   <PolyBegin x="0.63748" y="1.62000"/>
@@ -12900,70 +12868,82 @@
                   <PolyStepSegment x="0.63748" y="1.62000"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.71002" y="0.51500"/>
-                  <PolyStepCurve x="0.66998" y="0.51500" centerX="0.6900000" centerY="0.5150000" clockwise="true"/>
-                  <PolyStepCurve x="0.71002" y="0.51500" centerX="0.6900000" centerY="0.5150000" clockwise="true"/>
+                  <PolyBegin x="0.27567" y="1.66248"/>
+                  <PolyStepSegment x="0.21000" y="1.66248"/>
+                  <PolyStepCurve x="0.21000" y="1.70752" centerX="0.2100000" centerY="1.6850000" clockwise="true"/>
+                  <PolyStepSegment x="0.28500" y="1.70752"/>
+                  <PolyStepCurve x="0.30092" y="1.70092" centerX="0.2849931" centerY="1.6850029" clockwise="true"/>
+                  <PolyStepSegment x="0.39874" y="1.60310"/>
+                  <PolyStepCurve x="0.40534" y="1.58718" centerX="0.3828229" centerY="1.5871731" clockwise="true"/>
+                  <PolyStepSegment x="0.40534" y="1.49969"/>
+                  <PolyStepCurve x="0.39874" y="1.48377" centerX="0.3828229" centerY="1.4996969" clockwise="true"/>
+                  <PolyStepSegment x="0.39252" y="1.47754"/>
+                  <PolyStepSegment x="0.39252" y="1.30000"/>
+                  <PolyStepCurve x="0.34748" y="1.30000" centerX="0.3700000" centerY="1.3000000" clockwise="true"/>
+                  <PolyStepSegment x="0.34748" y="1.48687"/>
+                  <PolyStepCurve x="0.35408" y="1.50279" centerX="0.3699971" centerY="1.4868631" clockwise="true"/>
+                  <PolyStepSegment x="0.36030" y="1.50902"/>
+                  <PolyStepSegment x="0.36030" y="1.57785"/>
+                  <PolyStepSegment x="0.27567" y="1.66248"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.46002" y="1.17000"/>
-                  <PolyStepCurve x="0.41998" y="1.17000" centerX="0.4400000" centerY="1.1700000" clockwise="true"/>
-                  <PolyStepCurve x="0.46002" y="1.17000" centerX="0.4400000" centerY="1.1700000" clockwise="true"/>
+                  <PolyBegin x="0.51315" y="1.29797"/>
+                  <PolyStepCurve x="0.50685" y="1.29797" centerX="0.5100000" centerY="1.2955097" clockwise="false"/>
+                  <PolyStepCurve x="0.48500" y="1.28730" centerX="0.4850000" centerY="1.3150072" clockwise="true"/>
+                  <PolyStepCurve x="0.48500" y="1.34270" centerX="0.4850000" centerY="1.3150000" clockwise="true"/>
+                  <PolyStepCurve x="0.50685" y="1.33203" centerX="0.4850000" centerY="1.3149928" clockwise="true"/>
+                  <PolyStepCurve x="0.51315" y="1.33203" centerX="0.5100000" centerY="1.3344903" clockwise="false"/>
+                  <PolyStepCurve x="0.53500" y="1.34270" centerX="0.5350000" centerY="1.3149928" clockwise="true"/>
+                  <PolyStepCurve x="0.53500" y="1.28730" centerX="0.5350000" centerY="1.3150000" clockwise="true"/>
+                  <PolyStepCurve x="0.51315" y="1.29797" centerX="0.5350000" centerY="1.3150072" clockwise="true"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.53002" y="1.16500"/>
-                  <PolyStepCurve x="0.48998" y="1.16500" centerX="0.5100000" centerY="1.1650000" clockwise="true"/>
-                  <PolyStepCurve x="0.53002" y="1.16500" centerX="0.5100000" centerY="1.1650000" clockwise="true"/>
+                  <PolyBegin x="0.81748" y="1.67000"/>
+                  <PolyStepCurve x="0.82408" y="1.68592" centerX="0.8399971" centerY="1.6699931" clockwise="true"/>
+                  <PolyStepSegment x="0.85408" y="1.71592"/>
+                  <PolyStepCurve x="0.87000" y="1.72252" centerX="0.8700069" centerY="1.7000029" clockwise="true"/>
+                  <PolyStepCurve x="0.89252" y="1.70000" centerX="0.8700000" centerY="1.7000000" clockwise="true"/>
+                  <PolyStepCurve x="0.88592" y="1.68408" centerX="0.8700029" centerY="1.7000069" clockwise="true"/>
+                  <PolyStepSegment x="0.86252" y="1.66067"/>
+                  <PolyStepSegment x="0.86252" y="1.29433"/>
+                  <PolyStepSegment x="0.89592" y="1.26092"/>
+                  <PolyStepCurve x="0.90252" y="1.24500" centerX="0.8800029" centerY="1.2449931" clockwise="true"/>
+                  <PolyStepCurve x="0.88000" y="1.22248" centerX="0.8800000" centerY="1.2450000" clockwise="true"/>
+                  <PolyStepCurve x="0.86408" y="1.22908" centerX="0.8800069" centerY="1.2449971" clockwise="true"/>
+                  <PolyStepSegment x="0.82408" y="1.26908"/>
+                  <PolyStepCurve x="0.81748" y="1.28500" centerX="0.8399971" centerY="1.2850069" clockwise="true"/>
+                  <PolyStepSegment x="0.81748" y="1.67000"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.27002" y="1.54500"/>
-                  <PolyStepCurve x="0.22998" y="1.54500" centerX="0.2500000" centerY="1.5450000" clockwise="true"/>
-                  <PolyStepCurve x="0.27002" y="1.54500" centerX="0.2500000" centerY="1.5450000" clockwise="true"/>
+                  <PolyBegin x="0.85671" y="1.80498"/>
+                  <PolyStepSegment x="0.56000" y="1.80498"/>
+                  <PolyStepCurve x="0.56000" y="1.84502" centerX="0.5600000" centerY="1.8250000" clockwise="true"/>
+                  <PolyStepSegment x="0.86500" y="1.84502"/>
+                  <PolyStepCurve x="0.87915" y="1.83915" centerX="0.8649893" centerY="1.8250044" clockwise="true"/>
+                  <PolyStepSegment x="0.94415" y="1.77415"/>
+                  <PolyStepCurve x="0.95002" y="1.76000" centerX="0.9300044" centerY="1.7599893" clockwise="true"/>
+                  <PolyStepSegment x="0.95002" y="1.57000"/>
+                  <PolyStepCurve x="0.94415" y="1.55585" centerX="0.9300044" centerY="1.5700107" clockwise="true"/>
+                  <PolyStepSegment x="0.91415" y="1.52585"/>
+                  <PolyStepCurve x="0.90000" y="1.51998" centerX="0.8999893" centerY="1.5399956" clockwise="true"/>
+                  <PolyStepCurve x="0.87998" y="1.54000" centerX="0.9000000" centerY="1.5400000" clockwise="true"/>
+                  <PolyStepCurve x="0.88585" y="1.55415" centerX="0.8999956" centerY="1.5399893" clockwise="true"/>
+                  <PolyStepSegment x="0.90998" y="1.57829"/>
+                  <PolyStepSegment x="0.90998" y="1.75171"/>
+                  <PolyStepSegment x="0.85671" y="1.80498"/>
                   </Cutout>
                 <Cutout>
-                  <PolyBegin x="0.34652" y="2.04000"/>
-                  <PolyStepCurve x="0.23348" y="2.04000" centerX="0.2900000" centerY="2.0400000" clockwise="true"/>
-                  <PolyStepCurve x="0.34652" y="2.04000" centerX="0.2900000" centerY="2.0400000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.53837" y="2.04000"/>
-                  <PolyStepCurve x="0.43533" y="2.04000" centerX="0.4868500" centerY="2.0400000" clockwise="true"/>
-                  <PolyStepCurve x="0.53837" y="2.04000" centerX="0.4868500" centerY="2.0400000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.74022" y="2.04000"/>
-                  <PolyStepCurve x="0.62718" y="2.04000" centerX="0.6837000" centerY="2.0400000" clockwise="true"/>
-                  <PolyStepCurve x="0.74022" y="2.04000" centerX="0.6837000" centerY="2.0400000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.21000" y="1.75248"/>
-                  <PolyStepCurve x="0.21000" y="1.79752" centerX="0.2100000" centerY="1.7750000" clockwise="true"/>
-                  <PolyStepSegment x="0.32500" y="1.79752"/>
-                  <PolyStepCurve x="0.34092" y="1.79092" centerX="0.3249931" centerY="1.7750029" clockwise="true"/>
-                  <PolyStepSegment x="0.37870" y="1.75314"/>
-                  <PolyStepSegment x="0.41437" y="1.75314"/>
-                  <PolyStepCurve x="0.43029" y="1.74655" centerX="0.4143752" centerY="1.7306279" clockwise="true"/>
-                  <PolyStepSegment x="0.46592" y="1.71092"/>
-                  <PolyStepCurve x="0.47252" y="1.69500" centerX="0.4500029" centerY="1.6949931" clockwise="true"/>
-                  <PolyStepSegment x="0.47252" y="1.61534"/>
-                  <PolyStepCurve x="0.47959" y="1.61278" centerX="0.4765181" centerY="1.6153388" clockwise="false"/>
-                  <PolyStepCurve x="0.49500" y="1.62002" centerX="0.4950000" centerY="1.6000003" clockwise="true"/>
-                  <PolyStepCurve x="0.49500" y="1.57998" centerX="0.4950000" centerY="1.6000000" clockwise="true"/>
-                  <PolyStepCurve x="0.47959" y="1.58722" centerX="0.4950000" centerY="1.5999997" clockwise="true"/>
-                  <PolyStepCurve x="0.47252" y="1.58466" centerX="0.4765181" centerY="1.5846612" clockwise="false"/>
-                  <PolyStepSegment x="0.47252" y="1.52746"/>
-                  <PolyStepSegment x="0.48183" y="1.51814"/>
-                  <PolyStepSegment x="0.50000" y="1.51814"/>
-                  <PolyStepCurve x="0.50000" y="1.47312" centerX="0.5000000" centerY="1.4956300" clockwise="true"/>
-                  <PolyStepSegment x="0.47250" y="1.47312"/>
-                  <PolyStepCurve x="0.45658" y="1.47971" centerX="0.4724948" centerY="1.4956321" clockwise="true"/>
-                  <PolyStepSegment x="0.43408" y="1.50221"/>
-                  <PolyStepCurve x="0.42748" y="1.51813" centerX="0.4499971" centerY="1.5181369" clockwise="true"/>
-                  <PolyStepSegment x="0.42748" y="1.68567"/>
-                  <PolyStepSegment x="0.40504" y="1.70812"/>
-                  <PolyStepSegment x="0.36937" y="1.70812"/>
-                  <PolyStepCurve x="0.35345" y="1.71471" centerX="0.3693648" centerY="1.7306321" clockwise="true"/>
-                  <PolyStepSegment x="0.31567" y="1.75248"/>
-                  <PolyStepSegment x="0.21000" y="1.75248"/>
+                  <PolyBegin x="0.39915" y="1.03502"/>
+                  <PolyStepSegment x="0.69002" y="1.03502"/>
+                  <PolyStepSegment x="0.69002" y="0.59998"/>
+                  <PolyStepSegment x="0.37498" y="0.59998"/>
+                  <PolyStepSegment x="0.37498" y="0.74498"/>
+                  <PolyStepSegment x="0.22998" y="0.74498"/>
+                  <PolyStepSegment x="0.22998" y="0.97085"/>
+                  <PolyStepSegment x="0.15498" y="1.04585"/>
+                  <PolyStepSegment x="0.15498" y="1.14002"/>
+                  <PolyStepSegment x="0.29415" y="1.14002"/>
+                  <PolyStepSegment x="0.39915" y="1.03502"/>
                   </Cutout>
                 </Contour>
               </Features>
@@ -13070,8 +13050,7 @@
               <Location x="0.0" y="0.0"/>
               <Contour>
                 <Polygon>
-                  <PolyBegin x="0.16500" y="1.12911"/>
-                  <PolyStepCurve x="0.16502" y="1.13000" centerX="0.1450001" centerY="1.1300047" clockwise="false"/>
+                  <PolyBegin x="0.16500" y="1.13000"/>
                   <PolyStepSegment x="0.29000" y="1.13000"/>
                   <PolyStepSegment x="0.39500" y="1.02500"/>
                   <PolyStepSegment x="0.68000" y="1.02500"/>
@@ -13086,11 +13065,8 @@
                   <PolyStepSegment x="0.38500" y="0.75500"/>
                   <PolyStepSegment x="0.24000" y="0.75500"/>
                   <PolyStepSegment x="0.24000" y="0.97500"/>
-                  <PolyStepSegment x="0.17685" y="1.03815"/>
-                  <PolyStepCurve x="0.17723" y="1.04415" centerX="0.1796732" centerY="1.0409832" clockwise="true"/>
-                  <PolyStepCurve x="0.18502" y="1.06000" centerX="0.1650003" centerY="1.0600000" clockwise="false"/>
-                  <PolyStepCurve x="0.16500" y="1.08002" centerX="0.1650000" centerY="1.0600000" clockwise="false"/>
-                  <PolyStepSegment x="0.16500" y="1.12911"/>
+                  <PolyStepSegment x="0.16500" y="1.05000"/>
+                  <PolyStepSegment x="0.16500" y="1.13000"/>
                   <FillDescRef id="SOLID_FILL"/>
                   </Polygon>
                 <Cutout>
@@ -13189,6 +13165,13 @@
           <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
+              <Location x="0.12500" y="1.13000"/>
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </Pad>
+            </Set>
+          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
+            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
+            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.77500" y="1.54000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
@@ -13253,13 +13236,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.34000" y="1.53000"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.16500" y="1.06000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -13428,13 +13404,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.33500" y="0.94500"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.14500" y="1.13000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -13742,7 +13711,7 @@
               <PinRef pin="3" componentRef="J1"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -13778,7 +13747,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -13850,7 +13819,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -13859,7 +13828,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -13868,7 +13837,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -13877,7 +13846,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -16187,19 +16156,7 @@
               <Location x="0.0" y="0.0"/>
               <Contour>
                 <Polygon>
-                  <PolyBegin x="0.31818" y="0.70648"/>
-                  <PolyStepSegment x="0.31818" y="0.69228"/>
-                  <PolyStepCurve x="0.32252" y="0.68418" centerX="0.3279088" centerY="0.6922800" clockwise="false"/>
-                  <PolyStepCurve x="0.32219" y="0.68067" centerX="0.3214111" centerY="0.6825137" clockwise="true"/>
-                  <PolyStepCurve x="0.32122" y="0.68022" centerX="0.3279022" centerY="0.6670867" clockwise="false"/>
-                  <PolyStepSegment x="0.32079" y="0.68000"/>
-                  <PolyStepSegment x="0.30356" y="0.68000"/>
-                  <PolyStepSegment x="0.30356" y="0.71449"/>
-                  <PolyStepCurve x="0.29855" y="0.71950" centerX="0.2985450" centerY="0.7144850" clockwise="false"/>
-                  <PolyStepSegment x="0.24145" y="0.71950"/>
-                  <PolyStepCurve x="0.23644" y="0.71449" centerX="0.2414550" centerY="0.7144850" clockwise="false"/>
-                  <PolyStepSegment x="0.23644" y="0.67511"/>
-                  <PolyStepCurve x="0.24145" y="0.67010" centerX="0.2414550" centerY="0.6751150" clockwise="false"/>
+                  <PolyBegin x="0.24145" y="0.67010"/>
                   <PolyStepSegment x="0.28527" y="0.67010"/>
                   <PolyStepCurve x="0.28669" y="0.66669" centerX="0.2852720" centerY="0.6681002" clockwise="true"/>
                   <PolyStepSegment x="0.28500" y="0.66500"/>
@@ -16300,8 +16257,25 @@
                   <PolyStepCurve x="0.34209" y="0.71620" centerX="0.3420800" centerY="0.7064600" clockwise="false"/>
                   <PolyStepSegment x="0.32791" y="0.71620"/>
                   <PolyStepCurve x="0.31818" y="0.70648" centerX="0.3279100" centerY="0.7064700" clockwise="false"/>
+                  <PolyStepSegment x="0.31818" y="0.69228"/>
+                  <PolyStepCurve x="0.32252" y="0.68418" centerX="0.3279088" centerY="0.6922800" clockwise="false"/>
+                  <PolyStepCurve x="0.32219" y="0.68067" centerX="0.3214111" centerY="0.6825137" clockwise="true"/>
+                  <PolyStepCurve x="0.32122" y="0.68022" centerX="0.3279022" centerY="0.6670867" clockwise="false"/>
+                  <PolyStepSegment x="0.32079" y="0.68000"/>
+                  <PolyStepSegment x="0.30356" y="0.68000"/>
+                  <PolyStepSegment x="0.30356" y="0.71449"/>
+                  <PolyStepCurve x="0.29855" y="0.71950" centerX="0.2985450" centerY="0.7144850" clockwise="false"/>
+                  <PolyStepSegment x="0.24145" y="0.71950"/>
+                  <PolyStepCurve x="0.23644" y="0.71449" centerX="0.2414550" centerY="0.7144850" clockwise="false"/>
+                  <PolyStepSegment x="0.23644" y="0.67511"/>
+                  <PolyStepCurve x="0.24145" y="0.67010" centerX="0.2414550" centerY="0.6751150" clockwise="false"/>
                   <FillDescRef id="SOLID_FILL"/>
                   </Polygon>
+                <Cutout>
+                  <PolyBegin x="0.22502" y="1.09500"/>
+                  <PolyStepCurve x="0.18498" y="1.09500" centerX="0.2050000" centerY="1.0950000" clockwise="true"/>
+                  <PolyStepCurve x="0.22502" y="1.09500" centerX="0.2050000" centerY="1.0950000" clockwise="true"/>
+                  </Cutout>
                 <Cutout>
                   <PolyBegin x="0.62502" y="0.99500"/>
                   <PolyStepCurve x="0.58498" y="0.99500" centerX="0.6050000" centerY="0.9950000" clockwise="true"/>
@@ -16311,21 +16285,6 @@
                   <PolyBegin x="0.66502" y="0.95500"/>
                   <PolyStepCurve x="0.62498" y="0.95500" centerX="0.6450000" centerY="0.9550000" clockwise="true"/>
                   <PolyStepCurve x="0.66502" y="0.95500" centerX="0.6450000" centerY="0.9550000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.18502" y="1.06000"/>
-                  <PolyStepCurve x="0.14498" y="1.06000" centerX="0.1650000" centerY="1.0600000" clockwise="true"/>
-                  <PolyStepCurve x="0.18502" y="1.06000" centerX="0.1650000" centerY="1.0600000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.22502" y="1.09500"/>
-                  <PolyStepCurve x="0.18498" y="1.09500" centerX="0.2050000" centerY="1.0950000" clockwise="true"/>
-                  <PolyStepCurve x="0.22502" y="1.09500" centerX="0.2050000" centerY="1.0950000" clockwise="true"/>
-                  </Cutout>
-                <Cutout>
-                  <PolyBegin x="0.16502" y="1.13000"/>
-                  <PolyStepCurve x="0.12498" y="1.13000" centerX="0.1450000" centerY="1.1300000" clockwise="true"/>
-                  <PolyStepCurve x="0.16502" y="1.13000" centerX="0.1450000" centerY="1.1300000" clockwise="true"/>
                   </Cutout>
                 <Cutout>
                   <PolyBegin x="0.66502" y="0.87000"/>
@@ -16521,6 +16480,11 @@
                   <PolyBegin x="0.62502" y="0.65000"/>
                   <PolyStepCurve x="0.58498" y="0.65000" centerX="0.6050000" centerY="0.6500000" clockwise="true"/>
                   <PolyStepCurve x="0.62502" y="0.65000" centerX="0.6050000" centerY="0.6500000" clockwise="true"/>
+                  </Cutout>
+                <Cutout>
+                  <PolyBegin x="0.14502" y="1.13000"/>
+                  <PolyStepCurve x="0.10498" y="1.13000" centerX="0.1250000" centerY="1.1300000" clockwise="true"/>
+                  <PolyStepCurve x="0.14502" y="1.13000" centerX="0.1250000" centerY="1.1300000" clockwise="true"/>
                   </Cutout>
                 </Contour>
               </Features>
@@ -17537,6 +17501,13 @@
           <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
+              <Location x="0.12500" y="1.13000"/>
+              <StandardPrimitiveRef id="CIRCLE_1"/>
+              </Pad>
+            </Set>
+          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
+            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
+            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.77500" y="1.54000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
@@ -17601,13 +17572,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.34000" y="1.53000"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.16500" y="1.06000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -17776,13 +17740,6 @@
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
               <Location x="0.33500" y="0.94500"/>
-              <StandardPrimitiveRef id="CIRCLE_1"/>
-              </Pad>
-            </Set>
-          <Set net="GND_ISO" testPoint="false" plate="true" padUsage="VIA">
-            <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
-            <Pad padstackDefRef="VIA_10MILDRILL_20MILPAD">
-              <Location x="0.14500" y="1.13000"/>
               <StandardPrimitiveRef id="CIRCLE_1"/>
               </Pad>
             </Set>
@@ -18264,7 +18221,7 @@
               <StandardPrimitiveRef id="CIRCLE_2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E86A0">
+          <Set net="Unused_000002331478E6A0">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -18272,7 +18229,7 @@
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E8708">
+          <Set net="Unused_000002331478E708">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -18280,7 +18237,7 @@
               <StandardPrimitiveRef id="CIRCLE_3"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E99B8">
+          <Set net="Unused_000002331478F9B8">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -18834,7 +18791,7 @@
               <PinRef pin="4" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E97B0" testPoint="false" padUsage="TERMINATION">
+          <Set net="Unused_000002331478F7B0" testPoint="false" padUsage="TERMINATION">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Surface_pin" type="STRING"/>
             <Pad padstackDefRef="0,96MMX1,95MM">
               <Xform rotation="90.000" mirror="true"/>
@@ -18843,7 +18800,7 @@
               <PinRef pin="5" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9748" testPoint="false" padUsage="TERMINATION">
+          <Set net="Unused_000002331478F748" testPoint="false" padUsage="TERMINATION">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Surface_pin" type="STRING"/>
             <Pad padstackDefRef="0,96MMX1,95MM">
               <Xform rotation="90.000" mirror="true"/>
@@ -18861,7 +18818,7 @@
               <PinRef pin="7" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -18897,7 +18854,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -18969,7 +18926,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -18978,7 +18935,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -18987,7 +18944,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -18996,7 +18953,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -19018,37 +18975,37 @@
             <Hole name="H3" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.35500" y="0.36000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H4" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.77500" y="1.54000"/>
+            <Hole name="H4" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.12500" y="1.13000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H5" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49500" y="1.53500"/>
+            <Hole name="H5" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.77500" y="1.54000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H6" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.62500" y="1.72000"/>
+            <Hole name="H6" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49500" y="1.53500"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H7" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.74500" y="1.64500"/>
+            <Hole name="H7" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.62500" y="1.72000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H8" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22500" y="1.61500"/>
+            <Hole name="H8" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.74500" y="1.64500"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H9" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.26000" y="1.83000"/>
+            <Hole name="H9" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22500" y="1.61500"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H10" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="1.47681"/>
+            <Hole name="H10" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.26000" y="1.83000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H11" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.29500" y="1.83000"/>
+            <Hole name="H11" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="1.47681"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H12" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.17500" y="0.74819"/>
+            <Hole name="H12" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.29500" y="1.83000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H13" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.34000" y="1.53000"/>
+            <Hole name="H13" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.17500" y="0.74819"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H14" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.16500" y="1.06000"/>
+            <Hole name="H14" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.34000" y="1.53000"/>
             </Set>
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
             <Hole name="H15" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.53500" y="1.70500"/>
@@ -19122,185 +19079,182 @@
           <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
             <Hole name="H38" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.33500" y="0.94500"/>
             </Set>
-          <Set net="GND_ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H39" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.14500" y="1.13000"/>
+          <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
+            <Hole name="H39" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.41437" y="1.73063"/>
             </Set>
           <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H40" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.41437" y="1.73063"/>
+            <Hole name="H40" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.21000" y="1.77500"/>
             </Set>
           <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H41" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.21000" y="1.77500"/>
+            <Hole name="H41" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.50000" y="1.49563"/>
             </Set>
           <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H42" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.50000" y="1.49563"/>
+            <Hole name="H42" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.37000" y="1.30000"/>
             </Set>
           <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H43" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.37000" y="1.30000"/>
+            <Hole name="H43" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.21000" y="1.68500"/>
             </Set>
           <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H44" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.21000" y="1.68500"/>
-            </Set>
-          <Set net="20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H45" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.38282" y="1.52719"/>
+            <Hole name="H44" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.38282" y="1.52719"/>
             </Set>
           <Set net="-20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H46" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.87000" y="1.70000"/>
+            <Hole name="H45" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.87000" y="1.70000"/>
             </Set>
           <Set net="-20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H47" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.88000" y="1.24500"/>
+            <Hole name="H46" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.88000" y="1.24500"/>
             </Set>
           <Set net="-20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H48" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.09000" y="1.46000"/>
+            <Hole name="H47" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.09000" y="1.46000"/>
             </Set>
           <Set net="-20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H49" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.75000" y="1.71000"/>
+            <Hole name="H48" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.75000" y="1.71000"/>
             </Set>
           <Set net="-20VCCISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H50" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.27000" y="1.48500"/>
+            <Hole name="H49" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.27000" y="1.48500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H51" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.65000"/>
+            <Hole name="H50" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.65000"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H52" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.28000" y="0.82500"/>
+            <Hole name="H51" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.28000" y="0.82500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H53" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.99500"/>
+            <Hole name="H52" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.99500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H54" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.87000"/>
+            <Hole name="H53" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.87000"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H55" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.91500"/>
+            <Hole name="H54" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.60500" y="0.91500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H56" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.95500"/>
+            <Hole name="H55" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.95500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H57" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.20500" y="1.09500"/>
+            <Hole name="H56" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.20500" y="1.09500"/>
             </Set>
           <Set net="4V096ISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H58" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.41063" y="0.65000"/>
+            <Hole name="H57" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.41063" y="0.65000"/>
             </Set>
           <Set net="SCK" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H59" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="0.38500"/>
+            <Hole name="H58" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="0.38500"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H60" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.66000" y="0.06000"/>
+            <Hole name="H59" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.66000" y="0.06000"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H61" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.45323" y="0.13323"/>
+            <Hole name="H60" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.45323" y="0.13323"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H62" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.32000"/>
+            <Hole name="H61" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.64500" y="0.32000"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H63" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.85000" y="0.20000"/>
+            <Hole name="H62" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.85000" y="0.20000"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H64" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.17000" y="0.33500"/>
+            <Hole name="H63" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.17000" y="0.33500"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H65" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="0.33500"/>
+            <Hole name="H64" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.22000" y="0.33500"/>
             </Set>
           <Set net="GND" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H66" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49000" y="0.29000"/>
+            <Hole name="H65" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49000" y="0.29000"/>
             </Set>
           <Set net="3V3" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H67" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.71000" y="0.42000"/>
+            <Hole name="H66" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.71000" y="0.42000"/>
             </Set>
           <Set net="3V3" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H68" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.71000" y="0.36500"/>
+            <Hole name="H67" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.71000" y="0.36500"/>
             </Set>
           <Set net="3V3" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H69" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.72000" y="0.31000"/>
+            <Hole name="H68" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.72000" y="0.31000"/>
             </Set>
           <Set net="3V3" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H70" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.55681" y="0.25000"/>
+            <Hole name="H69" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.55681" y="0.25000"/>
             </Set>
           <Set net="VAMP" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H71" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.51000" y="1.16500"/>
+            <Hole name="H70" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.51000" y="1.16500"/>
             </Set>
           <Set net="VAMP" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H72" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.25000" y="1.54500"/>
+            <Hole name="H71" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.25000" y="1.54500"/>
             </Set>
           <Set net="N08933" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H73" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49500" y="1.60000"/>
+            <Hole name="H72" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.49500" y="1.60000"/>
             </Set>
           <Set net="N08933" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H74" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.44000" y="1.17000"/>
+            <Hole name="H73" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.44000" y="1.17000"/>
             </Set>
           <Set net="N08088" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H75" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.56000" y="1.82500"/>
+            <Hole name="H74" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.56000" y="1.82500"/>
             </Set>
           <Set net="N08088" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H76" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.90000" y="1.54000"/>
+            <Hole name="H75" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.90000" y="1.54000"/>
             </Set>
           <Set net="5VISO" geometry="VIA_10MILDRILL_20MILPAD">
-            <Hole name="H77" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.69000" y="0.51500"/>
+            <Hole name="H76" diameter="0.01000" platingStatus="VIA" plusTol="0.00300" minusTol="0.00300" x="0.69000" y="0.51500"/>
             </Set>
           <Set geometry="20021121-NPTH" componentRef="J3">
-            <Hole name="H78" diameter="0.03937" platingStatus="NONPLATED" plusTol="0.00197" minusTol="0.00197" x="0.48500" y="1.31500"/>
+            <Hole name="H77" diameter="0.03937" platingStatus="NONPLATED" plusTol="0.00197" minusTol="0.00197" x="0.48500" y="1.31500"/>
             </Set>
           <Set geometry="20021121-NPTH" componentRef="J3">
-            <Hole name="H79" diameter="0.03937" platingStatus="NONPLATED" plusTol="0.00197" minusTol="0.00197" x="0.53500" y="1.31500"/>
+            <Hole name="H78" diameter="0.03937" platingStatus="NONPLATED" plusTol="0.00197" minusTol="0.00197" x="0.53500" y="1.31500"/>
             </Set>
           <Set net="VOUT" geometry="PAD93CIR58D" componentRef="J1">
-            <Hole name="H80" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.29000" y="2.04000"/>
+            <Hole name="H79" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.29000" y="2.04000"/>
             </Set>
           <Set net="GND_ISO" geometry="PAD93CIR58D" componentRef="J1">
-            <Hole name="H81" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.48685" y="2.04000"/>
+            <Hole name="H80" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.48685" y="2.04000"/>
             </Set>
           <Set net="IOUT" geometry="PAD93CIR58D" componentRef="J1">
-            <Hole name="H82" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.68370" y="2.04000"/>
+            <Hole name="H81" diameter="0.05800" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.68370" y="2.04000"/>
             </Set>
-          <Set net="Unused_00000222327E9950" geometry="PAD_REC_90X70-43H" componentRef="J2">
-            <Hole name="H83" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.85000"/>
+          <Set net="Unused_000002331478F950" geometry="PAD_REC_90X70-43H" componentRef="J2">
+            <Hole name="H82" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.85000"/>
             </Set>
           <Set net="OUT_EN" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H84" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.75000"/>
+            <Hole name="H83" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.75000"/>
             </Set>
           <Set net="DAC_CSN" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H85" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.65000"/>
+            <Hole name="H84" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.65000"/>
             </Set>
           <Set net="SCK" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H86" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.55000"/>
+            <Hole name="H85" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.55000"/>
             </Set>
-          <Set net="Unused_00000222327E8770" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H87" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.45000"/>
+          <Set net="Unused_000002331478E770" geometry="PAD_OBL_90X70-43H" componentRef="J2">
+            <Hole name="H86" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.45000"/>
             </Set>
           <Set net="DAC_MOSI" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H88" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.35000"/>
+            <Hole name="H87" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.35000"/>
             </Set>
           <Set net="3V3" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H89" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.25000"/>
+            <Hole name="H88" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.25000"/>
             </Set>
           <Set net="GND" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H90" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.15000"/>
+            <Hole name="H89" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.05000" y="0.15000"/>
             </Set>
           <Set net="GND" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H91" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.15000"/>
+            <Hole name="H90" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.15000"/>
             </Set>
           <Set net="5V0" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H92" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.25000"/>
+            <Hole name="H91" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.25000"/>
             </Set>
           <Set net="SDA" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H93" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.35000"/>
+            <Hole name="H92" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.35000"/>
             </Set>
           <Set net="SCL" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H94" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.45000"/>
+            <Hole name="H93" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.45000"/>
             </Set>
-          <Set net="Unused_00000222327E9880" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H95" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.55000"/>
+          <Set net="Unused_000002331478F880" geometry="PAD_OBL_90X70-43H" componentRef="J2">
+            <Hole name="H94" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.55000"/>
             </Set>
-          <Set net="Unused_00000222327E9818" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H96" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.65000"/>
+          <Set net="Unused_000002331478F818" geometry="PAD_OBL_90X70-43H" componentRef="J2">
+            <Hole name="H95" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.65000"/>
             </Set>
-          <Set net="Unused_00000222327E98E8" geometry="PAD_OBL_90X70-43H" componentRef="J2">
-            <Hole name="H97" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.75000"/>
+          <Set net="Unused_000002331478F8E8" geometry="PAD_OBL_90X70-43H" componentRef="J2">
+            <Hole name="H96" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.75000"/>
             </Set>
-          <Set net="Unused_00000222327E8290" geometry="PAD_REC_90X70-43H" componentRef="J2">
-            <Hole name="H98" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.85000"/>
+          <Set net="Unused_000002331478E290" geometry="PAD_REC_90X70-43H" componentRef="J2">
+            <Hole name="H97" diameter="0.04300" platingStatus="PLATED" plusTol="0.00300" minusTol="0.00300" x="0.95000" y="0.85000"/>
             </Set>
           </LayerFeature>
         <LayerFeature layerRef="Soldermask-bottom">
@@ -19624,7 +19578,7 @@
               <StandardPrimitiveRef id="CIRCLE_2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E86A0">
+          <Set net="Unused_000002331478E6A0">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -19632,7 +19586,7 @@
               <StandardPrimitiveRef id="CIRCLE_4"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E8708">
+          <Set net="Unused_000002331478E708">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -19640,7 +19594,7 @@
               <StandardPrimitiveRef id="CIRCLE_4"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E99B8">
+          <Set net="Unused_000002331478F9B8">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Xform rotation="360.000" mirror="true"/>
@@ -20194,7 +20148,7 @@
               <PinRef pin="4" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E97B0" testPoint="false" padUsage="TERMINATION">
+          <Set net="Unused_000002331478F7B0" testPoint="false" padUsage="TERMINATION">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Surface_pin" type="STRING"/>
             <Pad padstackDefRef="0,96MMX1,95MM">
               <Xform rotation="90.000" mirror="true"/>
@@ -20203,7 +20157,7 @@
               <PinRef pin="5" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9748" testPoint="false" padUsage="TERMINATION">
+          <Set net="Unused_000002331478F748" testPoint="false" padUsage="TERMINATION">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Surface_pin" type="STRING"/>
             <Pad padstackDefRef="0,96MMX1,95MM">
               <Xform rotation="90.000" mirror="true"/>
@@ -20221,7 +20175,7 @@
               <PinRef pin="7" componentRef="U2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -20257,7 +20211,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -20329,7 +20283,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -20338,7 +20292,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -20347,7 +20301,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -20356,7 +20310,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -24607,7 +24561,7 @@
               <Xform rotation="90.000"/>
               <Location x="0.40000" y="1.64000"/>
               <StandardPrimitiveRef id="RECTROUND_2"/>
-              <PinRef pin="1" componentRef="C?"/>
+              <PinRef pin="1" componentRef="C55"/>
               </Pad>
             </Set>
           <Set net="N253978" testPoint="false" padUsage="TERMINATION">
@@ -24616,7 +24570,7 @@
               <Xform rotation="90.000"/>
               <Location x="0.40000" y="1.67937"/>
               <StandardPrimitiveRef id="RECTROUND_2"/>
-              <PinRef pin="2" componentRef="C?"/>
+              <PinRef pin="2" componentRef="C55"/>
               </Pad>
             </Set>
           <Set net="GND_ISO" testPoint="false" padUsage="TERMINATION">
@@ -24779,21 +24733,21 @@
               <StandardPrimitiveRef id="CIRCLE_2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8568">
+          <Set net="Unused_000002331478E568">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.10000" y="2.17000"/>
               <StandardPrimitiveRef id="CIRCLE_4"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E85D0">
+          <Set net="Unused_000002331478E5D0">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.90500" y="2.17000"/>
               <StandardPrimitiveRef id="CIRCLE_4"/>
               </LocalFiducial>
             </Set>
-          <Set net="Unused_00000222327E8638">
+          <Set net="Unused_000002331478E638">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Fiducial" type="STRING"/>
             <LocalFiducial>
               <Location x="0.24000" y="0.06000"/>
@@ -25796,7 +25750,7 @@
               <PinRef pin="8" componentRef="U8"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9950" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F950" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -25832,7 +25786,7 @@
               <PinRef pin="4" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8770" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E770" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -25904,7 +25858,7 @@
               <PinRef pin="12" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9880" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F880" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -25913,7 +25867,7 @@
               <PinRef pin="13" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E9818" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F818" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -25922,7 +25876,7 @@
               <PinRef pin="14" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E98E8" testPoint="false" plate="true">
+          <Set net="Unused_000002331478F8E8" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_OBL_90X70-43H">
               <Xform rotation="180.000"/>
@@ -25931,7 +25885,7 @@
               <PinRef pin="15" componentRef="J2"/>
               </Pad>
             </Set>
-          <Set net="Unused_00000222327E8290" testPoint="false" plate="true">
+          <Set net="Unused_000002331478E290" testPoint="false" plate="true">
             <NonstandardAttribute name="PADSTACK_USAGE" value="Through_pin" type="STRING"/>
             <Pad padstackDefRef="PAD_REC_90X70-43H">
               <Xform rotation="90.000"/>
@@ -28170,7 +28124,7 @@
                 </Polyline>
               </Features>
             </Set>
-          <Set componentRef="C?">
+          <Set componentRef="C55">
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
@@ -28183,61 +28137,73 @@
                 </Polyline>
               </Features>
             </Set>
-          <Set componentRef="C?">
-            <NonstandardAttribute name="TEXT" value="C?" type="STRING"/>
+          <Set componentRef="C55">
+            <NonstandardAttribute name="TEXT" value="C55" type="STRING"/>
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
-                <PolyBegin x="0.42708" y="1.65887"/>
-                <PolyStepSegment x="0.42583" y="1.65727"/>
-                <PolyStepSegment x="0.42500" y="1.65540"/>
-                <PolyStepSegment x="0.42500" y="1.65327"/>
-                <PolyStepSegment x="0.42625" y="1.65087"/>
-                <PolyStepSegment x="0.42833" y="1.64900"/>
-                <PolyStepSegment x="0.43083" y="1.64767"/>
-                <PolyStepSegment x="0.43500" y="1.64660"/>
-                <PolyStepSegment x="0.43875" y="1.64633"/>
-                <PolyStepSegment x="0.44250" y="1.64687"/>
-                <PolyStepSegment x="0.44500" y="1.64767"/>
-                <PolyStepSegment x="0.44750" y="1.64927"/>
-                <PolyStepSegment x="0.44917" y="1.65113"/>
-                <PolyStepSegment x="0.45000" y="1.65300"/>
-                <PolyStepSegment x="0.45000" y="1.65487"/>
-                <PolyStepSegment x="0.44917" y="1.65673"/>
-                <PolyStepSegment x="0.44792" y="1.65833"/>
-                <PolyStepSegment x="0.44625" y="1.65967"/>
+                <PolyBegin x="0.42708" y="1.64387"/>
+                <PolyStepSegment x="0.42583" y="1.64227"/>
+                <PolyStepSegment x="0.42500" y="1.64040"/>
+                <PolyStepSegment x="0.42500" y="1.63827"/>
+                <PolyStepSegment x="0.42625" y="1.63587"/>
+                <PolyStepSegment x="0.42833" y="1.63400"/>
+                <PolyStepSegment x="0.43083" y="1.63267"/>
+                <PolyStepSegment x="0.43500" y="1.63160"/>
+                <PolyStepSegment x="0.43875" y="1.63133"/>
+                <PolyStepSegment x="0.44250" y="1.63187"/>
+                <PolyStepSegment x="0.44500" y="1.63267"/>
+                <PolyStepSegment x="0.44750" y="1.63427"/>
+                <PolyStepSegment x="0.44917" y="1.63613"/>
+                <PolyStepSegment x="0.45000" y="1.63800"/>
+                <PolyStepSegment x="0.45000" y="1.63987"/>
+                <PolyStepSegment x="0.44917" y="1.64173"/>
+                <PolyStepSegment x="0.44792" y="1.64333"/>
+                <PolyStepSegment x="0.44625" y="1.64467"/>
                 <LineDescRef id="ROUND_600"/>
                 </Polyline>
               </Features>
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
-                <PolyBegin x="0.45083" y="1.67500"/>
-                <PolyStepSegment x="0.45042" y="1.67447"/>
-                <PolyStepSegment x="0.44958" y="1.67447"/>
-                <PolyStepSegment x="0.44917" y="1.67500"/>
-                <PolyStepSegment x="0.44958" y="1.67553"/>
-                <PolyStepSegment x="0.45042" y="1.67553"/>
-                <PolyStepSegment x="0.45083" y="1.67500"/>
+                <PolyBegin x="0.44625" y="1.65413"/>
+                <PolyStepSegment x="0.44833" y="1.65573"/>
+                <PolyStepSegment x="0.44958" y="1.65760"/>
+                <PolyStepSegment x="0.45000" y="1.66000"/>
+                <PolyStepSegment x="0.44917" y="1.66240"/>
+                <PolyStepSegment x="0.44750" y="1.66427"/>
+                <PolyStepSegment x="0.44458" y="1.66560"/>
+                <PolyStepSegment x="0.44125" y="1.66587"/>
+                <PolyStepSegment x="0.43792" y="1.66533"/>
+                <PolyStepSegment x="0.43583" y="1.66400"/>
+                <PolyStepSegment x="0.43417" y="1.66213"/>
+                <PolyStepSegment x="0.43375" y="1.66027"/>
+                <PolyStepSegment x="0.43417" y="1.65840"/>
+                <PolyStepSegment x="0.43583" y="1.65600"/>
+                <PolyStepSegment x="0.42500" y="1.65680"/>
+                <PolyStepSegment x="0.42500" y="1.66400"/>
                 <LineDescRef id="ROUND_600"/>
                 </Polyline>
               </Features>
             <Features>
               <Location x="0.0" y="0.0"/>
               <Polyline>
-                <PolyBegin x="0.44542" y="1.67500"/>
-                <PolyStepSegment x="0.43917" y="1.67500"/>
-                <PolyStepSegment x="0.43667" y="1.67553"/>
-                <PolyStepSegment x="0.43500" y="1.67660"/>
-                <PolyStepSegment x="0.43375" y="1.67767"/>
-                <PolyStepSegment x="0.43167" y="1.67847"/>
-                <PolyStepSegment x="0.42958" y="1.67847"/>
-                <PolyStepSegment x="0.42750" y="1.67793"/>
-                <PolyStepSegment x="0.42583" y="1.67687"/>
-                <PolyStepSegment x="0.42500" y="1.67500"/>
-                <PolyStepSegment x="0.42542" y="1.67367"/>
-                <PolyStepSegment x="0.42667" y="1.67233"/>
-                <PolyStepSegment x="0.42833" y="1.67153"/>
+                <PolyBegin x="0.44625" y="1.67613"/>
+                <PolyStepSegment x="0.44833" y="1.67773"/>
+                <PolyStepSegment x="0.44958" y="1.67960"/>
+                <PolyStepSegment x="0.45000" y="1.68200"/>
+                <PolyStepSegment x="0.44917" y="1.68440"/>
+                <PolyStepSegment x="0.44750" y="1.68627"/>
+                <PolyStepSegment x="0.44458" y="1.68760"/>
+                <PolyStepSegment x="0.44125" y="1.68787"/>
+                <PolyStepSegment x="0.43792" y="1.68733"/>
+                <PolyStepSegment x="0.43583" y="1.68600"/>
+                <PolyStepSegment x="0.43417" y="1.68413"/>
+                <PolyStepSegment x="0.43375" y="1.68227"/>
+                <PolyStepSegment x="0.43417" y="1.68040"/>
+                <PolyStepSegment x="0.43583" y="1.67800"/>
+                <PolyStepSegment x="0.42500" y="1.67880"/>
+                <PolyStepSegment x="0.42500" y="1.68600"/>
                 <LineDescRef id="ROUND_600"/>
                 </Polyline>
               </Features>
@@ -38482,283 +38448,6 @@
                 <PolyStepSegment x="0.50433" y="1.72500"/>
                 <PolyStepSegment x="0.49367" y="1.72500"/>
                 <LineDescRef id="ROUND_600"/>
-                </Polyline>
-              </Features>
-            </Set>
-          <Set>
-            <NonstandardAttribute name="TEXT" value="Rev 1.0B" type="STRING"/>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.53883" y="1.89500"/>
-                <PolyStepSegment x="0.53883" y="1.92600"/>
-                <PolyStepSegment x="0.54842" y="1.92600"/>
-                <PolyStepSegment x="0.55148" y="1.92445"/>
-                <PolyStepSegment x="0.55340" y="1.92238"/>
-                <PolyStepSegment x="0.55417" y="1.91825"/>
-                <PolyStepSegment x="0.55340" y="1.91412"/>
-                <PolyStepSegment x="0.55110" y="1.91153"/>
-                <PolyStepSegment x="0.54842" y="1.90998"/>
-                <PolyStepSegment x="0.53883" y="1.90998"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.54842" y="1.90998"/>
-                <PolyStepSegment x="0.55417" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.57175" y="1.90895"/>
-                <PolyStepSegment x="0.58402" y="1.90895"/>
-                <PolyStepSegment x="0.58287" y="1.91257"/>
-                <PolyStepSegment x="0.58095" y="1.91463"/>
-                <PolyStepSegment x="0.57827" y="1.91567"/>
-                <PolyStepSegment x="0.57558" y="1.91515"/>
-                <PolyStepSegment x="0.57328" y="1.91360"/>
-                <PolyStepSegment x="0.57175" y="1.90998"/>
-                <PolyStepSegment x="0.57098" y="1.90688"/>
-                <PolyStepSegment x="0.57098" y="1.90378"/>
-                <PolyStepSegment x="0.57175" y="1.90068"/>
-                <PolyStepSegment x="0.57367" y="1.89758"/>
-                <PolyStepSegment x="0.57597" y="1.89552"/>
-                <PolyStepSegment x="0.57865" y="1.89500"/>
-                <PolyStepSegment x="0.58133" y="1.89603"/>
-                <PolyStepSegment x="0.58402" y="1.89913"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.60160" y="1.91567"/>
-                <PolyStepSegment x="0.60850" y="1.89500"/>
-                <PolyStepSegment x="0.61540" y="1.91567"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.67050" y="1.89500"/>
-                <PolyStepSegment x="0.67050" y="1.92600"/>
-                <PolyStepSegment x="0.66590" y="1.91980"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.66590" y="1.89500"/>
-                <PolyStepSegment x="0.67510" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.70150" y="1.89397"/>
-                <PolyStepSegment x="0.70073" y="1.89448"/>
-                <PolyStepSegment x="0.70073" y="1.89552"/>
-                <PolyStepSegment x="0.70150" y="1.89603"/>
-                <PolyStepSegment x="0.70227" y="1.89552"/>
-                <PolyStepSegment x="0.70227" y="1.89448"/>
-                <PolyStepSegment x="0.70150" y="1.89397"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.73250" y="1.92600"/>
-                <PolyStepSegment x="0.72943" y="1.92497"/>
-                <PolyStepSegment x="0.72713" y="1.92238"/>
-                <PolyStepSegment x="0.72560" y="1.91928"/>
-                <PolyStepSegment x="0.72445" y="1.91515"/>
-                <PolyStepSegment x="0.72407" y="1.91050"/>
-                <PolyStepSegment x="0.72445" y="1.90585"/>
-                <PolyStepSegment x="0.72560" y="1.90172"/>
-                <PolyStepSegment x="0.72713" y="1.89862"/>
-                <PolyStepSegment x="0.72943" y="1.89603"/>
-                <PolyStepSegment x="0.73250" y="1.89500"/>
-                <PolyStepSegment x="0.73557" y="1.89603"/>
-                <PolyStepSegment x="0.73787" y="1.89862"/>
-                <PolyStepSegment x="0.73940" y="1.90172"/>
-                <PolyStepSegment x="0.74055" y="1.90585"/>
-                <PolyStepSegment x="0.74093" y="1.91050"/>
-                <PolyStepSegment x="0.74055" y="1.91515"/>
-                <PolyStepSegment x="0.73940" y="1.91928"/>
-                <PolyStepSegment x="0.73787" y="1.92238"/>
-                <PolyStepSegment x="0.73557" y="1.92497"/>
-                <PolyStepSegment x="0.73250" y="1.92600"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.76657" y="1.91153"/>
-                <PolyStepSegment x="0.76810" y="1.91308"/>
-                <PolyStepSegment x="0.76925" y="1.91567"/>
-                <PolyStepSegment x="0.77002" y="1.91928"/>
-                <PolyStepSegment x="0.76925" y="1.92238"/>
-                <PolyStepSegment x="0.76772" y="1.92445"/>
-                <PolyStepSegment x="0.76503" y="1.92600"/>
-                <PolyStepSegment x="0.75468" y="1.92600"/>
-                <PolyStepSegment x="0.75468" y="1.89500"/>
-                <PolyStepSegment x="0.76733" y="1.89500"/>
-                <PolyStepSegment x="0.77002" y="1.89707"/>
-                <PolyStepSegment x="0.77155" y="1.90017"/>
-                <PolyStepSegment x="0.77232" y="1.90378"/>
-                <PolyStepSegment x="0.77155" y="1.90740"/>
-                <PolyStepSegment x="0.76925" y="1.91050"/>
-                <PolyStepSegment x="0.76657" y="1.91153"/>
-                <PolyStepSegment x="0.75468" y="1.91153"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            </Set>
-          <Set>
-            <NonstandardAttribute name="TEXT" value="2021-10" type="STRING"/>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.20922" y="1.92083"/>
-                <PolyStepSegment x="0.21152" y="1.92393"/>
-                <PolyStepSegment x="0.21420" y="1.92548"/>
-                <PolyStepSegment x="0.21727" y="1.92600"/>
-                <PolyStepSegment x="0.22110" y="1.92497"/>
-                <PolyStepSegment x="0.22378" y="1.92238"/>
-                <PolyStepSegment x="0.22455" y="1.91928"/>
-                <PolyStepSegment x="0.22417" y="1.91618"/>
-                <PolyStepSegment x="0.22263" y="1.91360"/>
-                <PolyStepSegment x="0.21497" y="1.90843"/>
-                <PolyStepSegment x="0.21152" y="1.90482"/>
-                <PolyStepSegment x="0.20922" y="1.89965"/>
-                <PolyStepSegment x="0.20845" y="1.89500"/>
-                <PolyStepSegment x="0.22455" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.24750" y="1.92600"/>
-                <PolyStepSegment x="0.24443" y="1.92497"/>
-                <PolyStepSegment x="0.24213" y="1.92238"/>
-                <PolyStepSegment x="0.24060" y="1.91928"/>
-                <PolyStepSegment x="0.23945" y="1.91515"/>
-                <PolyStepSegment x="0.23907" y="1.91050"/>
-                <PolyStepSegment x="0.23945" y="1.90585"/>
-                <PolyStepSegment x="0.24060" y="1.90172"/>
-                <PolyStepSegment x="0.24213" y="1.89862"/>
-                <PolyStepSegment x="0.24443" y="1.89603"/>
-                <PolyStepSegment x="0.24750" y="1.89500"/>
-                <PolyStepSegment x="0.25057" y="1.89603"/>
-                <PolyStepSegment x="0.25287" y="1.89862"/>
-                <PolyStepSegment x="0.25440" y="1.90172"/>
-                <PolyStepSegment x="0.25555" y="1.90585"/>
-                <PolyStepSegment x="0.25593" y="1.91050"/>
-                <PolyStepSegment x="0.25555" y="1.91515"/>
-                <PolyStepSegment x="0.25440" y="1.91928"/>
-                <PolyStepSegment x="0.25287" y="1.92238"/>
-                <PolyStepSegment x="0.25057" y="1.92497"/>
-                <PolyStepSegment x="0.24750" y="1.92600"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.27122" y="1.92083"/>
-                <PolyStepSegment x="0.27352" y="1.92393"/>
-                <PolyStepSegment x="0.27620" y="1.92548"/>
-                <PolyStepSegment x="0.27927" y="1.92600"/>
-                <PolyStepSegment x="0.28310" y="1.92497"/>
-                <PolyStepSegment x="0.28578" y="1.92238"/>
-                <PolyStepSegment x="0.28655" y="1.91928"/>
-                <PolyStepSegment x="0.28617" y="1.91618"/>
-                <PolyStepSegment x="0.28463" y="1.91360"/>
-                <PolyStepSegment x="0.27697" y="1.90843"/>
-                <PolyStepSegment x="0.27352" y="1.90482"/>
-                <PolyStepSegment x="0.27122" y="1.89965"/>
-                <PolyStepSegment x="0.27045" y="1.89500"/>
-                <PolyStepSegment x="0.28655" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.30950" y="1.89500"/>
-                <PolyStepSegment x="0.30950" y="1.92600"/>
-                <PolyStepSegment x="0.30490" y="1.91980"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.30490" y="1.89500"/>
-                <PolyStepSegment x="0.31410" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.33552" y="1.90533"/>
-                <PolyStepSegment x="0.34548" y="1.90533"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.37150" y="1.89500"/>
-                <PolyStepSegment x="0.37150" y="1.92600"/>
-                <PolyStepSegment x="0.36690" y="1.91980"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.36690" y="1.89500"/>
-                <PolyStepSegment x="0.37610" y="1.89500"/>
-                <LineDescRef id="ROUND_700"/>
-                </Polyline>
-              </Features>
-            <Features>
-              <Location x="0.0" y="0.0"/>
-              <Polyline>
-                <PolyBegin x="0.40250" y="1.92600"/>
-                <PolyStepSegment x="0.39943" y="1.92497"/>
-                <PolyStepSegment x="0.39713" y="1.92238"/>
-                <PolyStepSegment x="0.39560" y="1.91928"/>
-                <PolyStepSegment x="0.39445" y="1.91515"/>
-                <PolyStepSegment x="0.39407" y="1.91050"/>
-                <PolyStepSegment x="0.39445" y="1.90585"/>
-                <PolyStepSegment x="0.39560" y="1.90172"/>
-                <PolyStepSegment x="0.39713" y="1.89862"/>
-                <PolyStepSegment x="0.39943" y="1.89603"/>
-                <PolyStepSegment x="0.40250" y="1.89500"/>
-                <PolyStepSegment x="0.40557" y="1.89603"/>
-                <PolyStepSegment x="0.40787" y="1.89862"/>
-                <PolyStepSegment x="0.40940" y="1.90172"/>
-                <PolyStepSegment x="0.41055" y="1.90585"/>
-                <PolyStepSegment x="0.41093" y="1.91050"/>
-                <PolyStepSegment x="0.41055" y="1.91515"/>
-                <PolyStepSegment x="0.40940" y="1.91928"/>
-                <PolyStepSegment x="0.40787" y="1.92238"/>
-                <PolyStepSegment x="0.40557" y="1.92497"/>
-                <PolyStepSegment x="0.40250" y="1.92600"/>
-                <LineDescRef id="ROUND_700"/>
                 </Polyline>
               </Features>
             </Set>
