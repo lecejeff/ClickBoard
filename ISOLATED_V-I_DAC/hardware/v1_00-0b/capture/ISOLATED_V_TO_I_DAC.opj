@@ -1,6 +1,6 @@
 (ExpressProject "Isolated_v_to_i_DAC"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S021 (3976684)  [9/12/2021]-[10/31/21]")
+  (SoftwareVersion "17.4-2019 S021 (3976684)  [9/12/2021]-[11/09/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -280,9 +280,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1354 24 774")
-        (Scroll "-104 -5")
-        (Zoom "73")
+        (Placement "44 0 1 -1 -1 5 24 5 1319 24 774")
+        (Scroll "938 683")
+        (Zoom "146")
         (Occurrence "/"))
       (Path
          "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0B\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
@@ -291,9 +291,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1354 24 774")
-        (Scroll "-183 -6")
-        (Zoom "98")
+        (Placement "44 0 1 -1 -1 5 24 5 1319 24 774")
+        (Scroll "88 183")
+        (Zoom "196")
         (Occurrence "/"))
       (Path
          "C:\USERS\JEANF\DESKTOP\GIT\CLICKBOARD\ISOLATED_V-I_DAC\HARDWARE\V1_00-0B\CAPTURE\ISOLATED_V_TO_I_DAC.DSN")
